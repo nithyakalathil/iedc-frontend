@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    
+  }
+  .wrapper
+  {
+    height:100vh;
+  }
+  .top-bar
+  {
+    width:80%;
+    height:50px;
+    margin:20px auto;
+  }
+  .logo
+  {
+    width:20%;
+    float:left;
+  }
+  .logo img
+  {
+    width: 150px;
+    margin:8px auto;
+  }
+  .menu-bar
+  {
+    width: 60%;
+    float: left;
+    text-align: center;
+  }
+
+.menu-bar a {
+  text-decoration: none; 
+  color: black;
+  font-size: 16px; 
+}
+  .menu-bar ul li
+  {
+    display:inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 15px 20px;
+    padding-top: 5px;
+    cursor:pointer;
+  }
+  .active,.menu-bar ul li:hover
+  {
+    border-top:2px solid #2c97e4;
+  }
+  .search-box
+  {
+    width: 20%;
+    float: right;
+  }
+  .input-search
+  {
+    margin: 11px auto;
+    display: inline-flex;
+    border-bottom: 1px solid #2c97e4;
+  }
+  .input-search input
+  {
+    float:right;
+    padding: 5px;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+  }
+  .search-icon .fa
+  {
+    color:#2c97e4;
+  }
+  .hero
+  {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    position:relative;
+    
+  }
+  .hero-text
+  {
+    width:50%;
+    height: 100%;
+    float: left;
+    line-height: 40px;
+  }
+  .hero-text h1
+  {
+    margin: 100px 0 50px 70px;
+    line-height: 40px;
+  }
+  .hero-text p
+  {
+    
+    line-height: 40px;
+  }
+  .social-icons
+  {
+    width:200px;
+    height: 390px;
+    left: 0;
+    top: 150px;
+    position: absolute;
+    border-top-right-radius: 200px 129px;
+    border-bottom-right-radius: 200px 129px;
+    background-image: linear-gradient(#2c97e4,#d7e6fa);
+  }
+  .social-icons ul
+  {
+    display:block;
+    color:#fff;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  .social-icons ul li
+  {
+    list-style: none;
+    margin-top: 30px;
+  }
+  .social-icons ul li .fa
+  {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1;
+  }
+ body{
+    background-color: #f4f4f4;
+ }
+  
